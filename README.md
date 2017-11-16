@@ -41,3 +41,9 @@ It is a classic idea to run a restaurant. If you are a real foodie, this is cert
 
 In this project, we are goint to use Yelp open dataset to help us determine essential factors for private businessmen opening up new restaurants such as customers’ preferences/demand, customers’ income/racial information, and seasonality in different regions in the U.S.
 
+At the end of our project, we expect to achieve the followings:
+1. Mapping restaurants’ geolocations with people’s income level, racial, and other information at that region to estimate the size of the potential market and people’s preference. 
+2. Analyzing people’s reviews and their ratings to determine factors that competitors have an advantages of or disadvantages of. 
+3. Based on the timestamp of customers’ reviews and their ratings to determine changes in people’s preference due to seasonality (spring/summer/fall/winter)
+
+
