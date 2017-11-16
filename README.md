@@ -37,5 +37,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 # Project Introduction:
-Using Yelp open dataset to determine essential factors for private businessmen opening up new restaurants such as customers’ preferences/demand, customers’ income/racial information, and seasonality in different regions in the U.S.
+It is a classic idea to run a restaurant. If you are a real foodie, this is certainly some good reasons in terms of running a restaurant. If you enjoy cooking a lot, you might think you can open your own restaurant.If you are after some sort of business to invest in and something to fill your time, running a restaurant might seem like a good idea to you. However, opening a restaurant might be easy, keeping it going is the most difficult part. It’s important to understand all the various jobs that are involved in running a restaurant before you actually open one. For example, you need to decide where you want to open you business, what kind of customers you are targeting at, who is your competitor in the neighbourhood and you might also want to know if most of the households in your neighbourhood can afford your food.etc.
+
+In this project, we are goint to use Yelp open dataset to help us determine essential factors for private businessmen opening up new restaurants such as customers’ preferences/demand, customers’ income/racial information, and seasonality in different regions in the U.S.
 
