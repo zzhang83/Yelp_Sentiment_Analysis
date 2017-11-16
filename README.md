@@ -35,3 +35,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+# Project Introduction:
+Using Yelp open dataset to determine essential factors for private businessmen opening up new restaurants such as customers’ preferences/demand, customers’ income/racial information, and seasonality in different regions in the U.S.
+
