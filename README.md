@@ -17,3 +17,9 @@ Script:
 1. You would be able to obtain a clearned and merged income and zipcode csv by running Clean_income_zipcode_data.py
 2. you would be able to load and clean yelp open dataset review.json and business.json by runing 'Load and Clean.ipynb'
 3. 
+
+
+Blog of our project can be found at:
+https://medium.com/@zhiwei_zhang
+
+Presentation of our project:
