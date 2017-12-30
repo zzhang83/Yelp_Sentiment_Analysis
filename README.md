@@ -1,5 +1,4 @@
-### Machine Learning and Visualization with Yelp Dataset 
-
+## Machine Learning and Visualization with Yelp Dataset 
 
 Yelp is currently the most widely used restaurant and merchant information software across United States. However, Yelp only provides us a holistic view about restaurant, such as giving overall review score or ratings and only a few reviews out of thousands of reviews.  
 
@@ -25,11 +24,17 @@ Taking in an user’s inputs, we first query our database to give us the unique 
 ###### Steps:
 1. Open UI jupyter notebook
 
+<img width="637" alt="screen shot 2017-12-30 at 3 05 37 pm" src="https://user-images.githubusercontent.com/31679696/34452110-f71df3b2-ed72-11e7-8efd-ee7c8db31ea1.png">
+
 2. Type in the name and the zipcode of a restaurant that you would like to search
 - Here we typed in 85374 as the zip code and  “pei wei” as the restaurant’s name:
 
+<img width="658" alt="screen shot 2017-12-30 at 3 06 48 pm" src="https://user-images.githubusercontent.com/31679696/34452119-24a808ae-ed73-11e7-9541-b6cb85a9c36e.png">
+
+
 3. Waiting for the program to run for a couple of minutes, you will get the output:
 
+<img width="699" alt="screen shot 2017-12-30 at 3 07 23 pm" src="https://user-images.githubusercontent.com/31679696/34452121-396970e8-ed73-11e7-88fe-7f8c816b4595.png">
 
 
 
