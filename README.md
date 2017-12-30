@@ -20,8 +20,14 @@ This repository is organized as below:
 3. You would be able to get the results for fake review dection by running **Machine Learning.ipynb**
 4. You would be able to get the wordcloud and important features by running **word_cloud&feature extraction.ipynb**
 
-### Database:
+
+### Database & Exploratory Statistics
 With cleaned reviews, users, business, income & zip code, and fake review labeled data in five separated csv files, it is essential to connect them in order to reduce the time required for merging and extracting data for later models. We built a SQL database with four out of  five csv files (reviews, business, income & zip code, and users) 
+
+Before jumping right into our machine learning models, we also explored and familiarize ourselves with these datasets through graphs and some preliminary analysis. For each of the above dataset, we tried to find patterns and potential problems which could be useful information or traps in the later machine learning processes. 
+
+By running **SQL Database & Preliminary Data Visualization.ipynb** you would be able to get the result for database and visualization.
+
 
 ### User_Interface:
 Taking in an user’s inputs, we first query our database to give us the unique business id that is associated with restaurant’s name and zip code. Loading the csv file with the predicted “deceptive vs. true” labels on the reviews, we only extract those reviews that are related to the unique business id. 
