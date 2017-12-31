@@ -23,10 +23,10 @@ This repository is organized as below:
 
 ### Script:
 1. You would be able to obtain a cleaned and merged income and zipcode csv by running **Clean_income_zipcode_data.py**
-2. you would be able to load and clean yelp open dataset review.json and business.json by runing **Load and Clean.ipynb**
+2. you would be able to load and clean yelp open dataset review.json and business.json by runing **Load&Clean Yelp Dataset.ipynb**
 3. You would be able to get the results for fake review dection by running **Machine Learning.ipynb**
-4. You would be able to get the wordcloud and important features by running **word_cloud & feature extraction.ipynb**
-
+4. You would be able to get the wordcloud of restaurant reviews and important features from reviews for each restaurant by running **word_cloud & feature extraction.ipynb**
+5. You would be able to see the comparisons of fake reviews and true reviews and some visualizations by running **Visualization_for_Review_Business.ipynb**
 
 ### Database & Exploratory Statistics
 With cleaned reviews, users, business, income & zip code, and fake review labeled data in five separated csv files, it is essential to connect them in order to reduce the time required for merging and extracting data for later models. We built a SQL database with four out of  five csv files (reviews, business, income & zip code, and users) 
