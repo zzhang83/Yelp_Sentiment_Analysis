@@ -17,41 +17,41 @@ The objective of this project is to help yelp users, whether they are business o
 These instructions will get you a copy of the project up and running on your local machine.
 
  * *In order to obtain the raw data:*
-  1. You would need to download Yelp Open Dataset from https://www.yelp.com/dataset. We mainly focus on business.json, review.json, and        users.json in our project. 
-  2. You would need to download Fake review labeled data by following the link in **Machine Learning Training Set.txt** file.
-  3. You would be able to directly download **income.csv** and **zip_code_states.csv** from the **data** folder.
+    1. You would need to download Yelp Open Dataset from https://www.yelp.com/dataset. We mainly focus on business.json, review.json, and        users.json in our project. 
+    2. You would need to download Fake review labeled data by following the link in **Machine Learning Training Set.txt** file.
+    3. You would be able to directly download **income.csv** and **zip_code_states.csv** from the **data** folder.
  
  
  * *In order to obtain the cleaned data:*
-  1. You would be able to obtain a cleaned and merged income and zipcode csv by running **Clean_income_zipcode_data.py** in the **script** folder,or you can just download the **income_zipcode.csv** from **data** folder
-  2. You would be able to obtain a cleaned business.csv by just downloading the **business_data.csv** in **data** folder.
-  3. You would be able to obtain a cleaned review.csv and users.csv by running **Load&Clean Yelp Dataset.ipynb** in the **script** folder. 
+    1. You would be able to obtain a cleaned and merged income and zipcode csv by running **Clean_income_zipcode_data.py** in the **script** folder,or you can just download the **income_zipcode.csv** from **data** folder
+    2. You would be able to obtain a cleaned business.csv by just downloading the **business_data.csv** in **data** folder.
+    3. You would be able to obtain a cleaned review.csv and users.csv by running **Load&Clean Yelp Dataset.ipynb** in the **script** folder. 
  
  
  * *In order to build the SQL database and have a preliminary view about the data:*
- 1. You would need to run **SQL Database & Preliminary Data Visualization.ipynb** in the **script** folder. You would also need to obtain cleaned reviews, income_zipcode, users, and business data and put them in a data folder from the previous section. These data will be used to populate our SQL database. 
+    1. You would need to run **SQL Database & Preliminary Data Visualization.ipynb** in the **script** folder. You would also need to obtain cleaned reviews, income_zipcode, users, and business data and put them in a data folder from the previous section. These data will be used to populate our SQL database. 
  
  
  * *In order to visualize some of the data:*
- 1. You would need to run **Visualization_for_Review_Business.ipynb** in the **script** folder.
+    1. You would need to run **Visualization_for_Review_Business.ipynb** in the **script** folder.
  
  
  * *In order to run fake review detection machine learning model and using filtered true reviews to extract keywords:*
- 1. You would first need to have fake review labeled data obtained from previous section. Then you would need to run **Machine Learning.ipynb** in the **script** folder to predict whether our current reviews are deceptive or trustworthy.
- 2. After running **Machine Learning.ipynb**, you would need to run **word_cloud & feature extraction.ipynb** to find the key insights about each restaurant.
+    1. You would first need to have fake review labeled data obtained from previous section. Then you would need to run **Machine Learning.ipynb** in the **script** folder to predict whether our current reviews are deceptive or trustworthy.
+    2. After running **Machine Learning.ipynb**, you would need to run **word_cloud & feature extraction.ipynb** to find the key insights about each restaurant.
  
  
  * *Instead of manually running each machine learning files, we created an API & UI that facilitates the process:*
- NOTE: Because of the large size of our data, we still break down the process into several steps that requiring you to manually run each in order on a single computer. If we have resources to run large datasets in a short amount of time, we would automate the whole process.  
- 1. You are able to download **predicted_review.csv** by following instructions in **Predicted Review Results.pdf** in the **data** folder. This csv contains the results of predicted reviews' validiy after you ran "machine learning.ipynb". We saved and uploaded the results for the fake review detection machine learning model to improve your and users' experience by shorten the waiting time since we only ran our models on our own computers. 
-2. After obtained "predicted_review.csv" and the SQL database at your local system by following previous steps, you can run **UI.py** or **User_Interface.ipynb** to initiate the automated program.
-3. You may type in any restaurants and its zipcode in six states (PA, NV, NC, IL, OH, AZ) by following the prompt. The program would present a fake review ratio, which is the percentage of the fake reviews out of the total reviews and a graph demonstrating the top 10 keywords that most positively or negatively influencing the reviews of a restaurant.
+    NOTE: Because of the large size of our data, we still break down the process into several steps that requiring you to manually run each in order on a single computer. If we have resources to run large datasets in a short amount of time, we would automate the whole process.  
+    1. You are able to download **predicted_review.csv** by following instructions in **Predicted Review Results.pdf** in the **data** folder. This csv contains the results of predicted reviews' validiy after you ran "machine learning.ipynb". We saved and uploaded the results for the fake review detection machine learning model to improve your and users' experience by shorten the waiting time since we only ran our models on our own computers. 
+    2. After obtained "predicted_review.csv" and the SQL database at your local system by following previous steps, you can run **UI.py** or **User_Interface.ipynb** to initiate the automated program.
+    3. You may type in any restaurants and its zipcode in six states (PA, NV, NC, IL, OH, AZ) by following the prompt. The program would present a fake review ratio, which is the percentage of the fake reviews out of the total reviews and a graph demonstrating the top 10 keywords that most positively or negatively influencing the reviews of a restaurant.
 
 
 ## User_Interface:
 Taking in an user’s inputs, we first query our database to give us the unique business id that is associated with restaurant’s name and zip code. Loading the csv file with the predicted “deceptive vs. true” labels on the reviews, we only extracted those reviews that are related to the unique business id. 
 
-###### Steps:
+#### Steps:
 1. Open **User_Interface.ipynb** in Scripts folder
 
 <img width="637" alt="screen shot 2017-12-30 at 3 05 37 pm" src="https://user-images.githubusercontent.com/31679696/34452110-f71df3b2-ed72-11e7-8efd-ee7c8db31ea1.png">
