@@ -16,7 +16,7 @@ The objective of this project is to help yelp users, whether they are business o
 
 These instructions will get you a copy of the project up and running on your local machine.
 
- * *In order to obtain the raw data:*
+ *In order to obtain the raw data:*
   1. You would need to download Yelp Open Dataset from https://www.yelp.com/dataset. We mainly focus on business.json, review.json, and        users.json in our project. 
   2. You would need to download Fake review labeled data by following the link in **Machine Learning Training Set.txt** file.
   3. You would be able to directly download **income.csv** and **zip_code_states.csv** from the **data** folder.
