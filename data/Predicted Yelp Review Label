@@ -1,4 +1,0 @@
-Intructions:
-By running the fake review machine learning model, we already prepared all the results of the predicted validity of our Yelp reviews (Fake/True) for you. You can access the predicted review label csv through the link: https://drive.google.com/file/d/1Jn9gAWGx-OhdZzuJ7WUhQ7U4px7nOTQT/view?usp=sharing.
-
-By directly downloading the csv file, we saved you time for preprocessing the data, training the model, and predicting the reviews. You would only need to use the csv file and run our UI.py or UI.ipynb to search the restaurants you are interested in, and this enables you to receive the results in a timely manner.
